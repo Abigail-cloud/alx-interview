@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-"""A script to  that returns a list of lists of integers representing the Pascal's triangle of n"""
+"""A script to determine pascal's triangle for any number"""
+
 
 def pascal_triangle(n):
-  """
+    """
     Generates Pascal's triangle of n rows.
     
     Args:
@@ -11,11 +12,11 @@ def pascal_triangle(n):
     Returns:
         List[List[int]]: A list of lists representing the Pascal's triangle.
     """
-  triangle = []
- 
-  # return (trianlgle if n <= 0)
-  if n <= 0:
-    return triangle
+    triangle = []
+
+    # return (trianlgle if n <= 0)
+    if n <= 0:
+        return triangle
     for i in range(n):
         temp_list = []
 
